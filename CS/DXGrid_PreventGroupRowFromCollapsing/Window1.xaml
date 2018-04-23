@@ -1,0 +1,20 @@
+﻿<Window x:Class="DXGrid_PreventGroupRowFromCollapsing.Window1" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        Title="Preventing Groups from Collapsing" Height="380" Width="335">
+    <Grid>
+        <dxg:GridControl
+            GroupRowCollapsing="gridControl1_GroupRowCollapsing" AutoExpandAllGroups="True" Name="gridControl1">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="ProductName" />
+                <dxg:GridColumn FieldName="Price" Width="60" />
+                <dxg:GridColumn FieldName="Discount" Width="75" />
+                <dxg:GridColumn FieldName="Status" GroupIndex="0" SortOrder="Descending" x:Name="colStatus" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</Window>
