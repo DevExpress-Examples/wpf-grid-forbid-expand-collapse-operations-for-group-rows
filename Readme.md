@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DataSource.cs](./CS/DXGrid_PreventGroupRowFromCollapsing/DataSource.cs) (VB: [DataSource.vb](./VB/DXGrid_PreventGroupRowFromCollapsing/DataSource.vb))
+* [Window1.xaml](./CS/DXGrid_PreventGroupRowFromCollapsing/Window1.xaml) (VB: [Window1.xaml](./VB/DXGrid_PreventGroupRowFromCollapsing/Window1.xaml))
+* [Window1.xaml.cs](./CS/DXGrid_PreventGroupRowFromCollapsing/Window1.xaml.cs) (VB: [Window1.xaml](./VB/DXGrid_PreventGroupRowFromCollapsing/Window1.xaml))
+<!-- default file list end -->
 # How to Prevent Group Rows from being Collapsed
 
 
