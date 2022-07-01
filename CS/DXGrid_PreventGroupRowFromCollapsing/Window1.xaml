@@ -1,4 +1,4 @@
-﻿<Window x:Class="DXGrid_PreventGroupRowFromCollapsing.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" Title="Preventing Groups from Collapsing" Height="380" Width="335">
+<Window x:Class="DXGrid_PreventGroupRowFromCollapsing.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" Title="Preventing Groups from Collapsing" Height="380" Width="335">
     <Grid>
         <dxg:GridControl GroupRowCollapsing="gridControl1_GroupRowCollapsing" AutoExpandAllGroups="True" Name="gridControl1">
             <dxg:GridControl.Columns>
