@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DXExample.DemoData {
+namespace Forbid_Expand_Collapse {
     public enum InvoiceStatus { Ordered, Payed, Shipped, Delivered, Invalidated }
     public class Invoice {
         public int ID { get; set; }

@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace DXGrid_PreventGroupRowFromCollapsing {
+namespace Forbid_Expand_Collapse {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
