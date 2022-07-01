@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # WPF Data Grid - Forbid Expand and Collapse Operations for Group Rows
 
-The following example does not allow users to collapse the **Status: Invalidated** group row and expand the **Status: Delivered** group row.
+The following example prevents users from collapsing the **Status: Invalidated** group row and expanding the **Status: Delivered** group row.
 
 ![image](https://user-images.githubusercontent.com/65009440/176848239-7e773d46-7a49-44fc-9d36-c8fe564e83e7.png)
 
