@@ -3,17 +3,17 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2024)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# WPF Data Grid - Forbid Expand and Collapse Operations for Group Rows
+# WPF Data Grid - Prevent Expand and Collapse Operations for Group Rows
 
 The following example prevents users from collapsing the **Status: Invalidated** group row and expanding the **Status: Delivered** group row.
 
 ![image](https://user-images.githubusercontent.com/65009440/176848239-7e773d46-7a49-44fc-9d36-c8fe564e83e7.png)
 
-* The [GridControl.EndGrouping](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.EndGrouping) event handler initially expands/collapses group rows when a user groups the grid by the **Status** column.
-* The [GridControl.GroupRowCollapsing](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowCollapsing) event handler forbids to collapse the **Status: Invalidated** group row when a user clicks the expand button.
-* The [GridControl.GroupRowCollapsed](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowCollapsed) event handler keeps the **Status: Invalidated** group row expanded when a user clicks the **Full Collapse** context menu item.
-* The [GridControl.GroupRowExpanding](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowExpanding) event handler forbids to expand the **Status: Delivered** group row when a user clicks the expand button.
-* The [GridControl.GroupRowExpanded](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowExpanded) event handler keeps the **Status: Delivered** group row collapsed when a user clicks the **Full Expand** context menu item.
+* The [GridControl.EndGrouping](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.EndGrouping) event handler initially expands/collapses group rows when a user groups the grid against the **Status** column.
+* The [GridControl.GroupRowCollapsing](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowCollapsing) event handler prevents the collapse of the **Status: Invalidated** group row when a user clicks the expand button.
+* The [GridControl.GroupRowCollapsed](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowCollapsed) event handler retains the **Status: Invalidated** group row's expanded state when a user clicks the **Full Collapse** context menu item.
+* The [GridControl.GroupRowExpanding](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowExpanding) event handler prevents the expansion of the **Status: Delivered** group row when a user clicks the expand button.
+* The [GridControl.GroupRowExpanded](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.GroupRowExpanded) event handler retains the **Status: Delivered** group row's collapsed state when a user clicks the **Full Expand** context menu item.
 
 ## Files to Look at
 
